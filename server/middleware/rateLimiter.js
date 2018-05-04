@@ -1,6 +1,6 @@
 var rateLimiter = function (req, res, next) {
   // TODO
-  console.log(req)
+  next();
 };
 
 module.exports = rateLimiter;
